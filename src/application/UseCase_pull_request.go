@@ -13,6 +13,9 @@ import (
 
 
 
+
+
+
 func HandleGithubPingEvent(ctx *gin.Context) {
 	log.Println("Evento Ping recibido de GitHub.")
 	ctx.JSON(http.StatusOK, gin.H{"status": "Ping recibido"})
