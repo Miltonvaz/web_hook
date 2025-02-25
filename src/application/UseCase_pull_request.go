@@ -60,3 +60,7 @@ func HandleGithubPullRequestEvent(ctx *gin.Context, payload []byte) {
 
 	ctx.JSON(http.StatusOK, gin.H{"status": "Evento Pull Request recibido y procesado"})
 }
+
+
+
+
